@@ -1,9 +1,12 @@
 import cherryBlossomImg from "../assets/a_delicate_cherry_blossom_arrangement_in_a_soft_pink_vase_ethereal_spring.png";
+import cherryBlossomImg_1 from "../assets/cherryBlossomImg_1.png";
+import cherryBlossomImg_2 from "../assets/cherryBlossomImg_2.png";
+import cherryBlossomImg_3 from "../assets/cherryBlossomImg_3.png";
 import sunflowerImg from "../assets/a_bundle_of_fresh_yellow_sunflowers_tied_with_a_rustic_twine_bright_and_cheery.png";
 import monsteraImg from "../assets/a_lush_green_monstera_plant_in_a_ceramic_pastel_yellow_pot_soft_natural_light.png";
 import tulipDaisyImg from "../assets/a_vibrant_spring_bouquet_of_tulips_and_daisies_in_a_simple_glass_vase_soft.png";
-import tulipDaisyImg_1 from "../assets/tulipDaisyImg_1";
-import tulipDaisyImg_2 from "../assets/tulipDaisyImg_2";
+import tulipDaisyImg_1 from "../assets/tulipDaisyImg_1.png";
+import tulipDaisyImg_2 from "../assets/tulipDaisyImg_2.png";
 
 
 
@@ -64,9 +67,9 @@ export const PRODUCTS: Product[] = [
     mainImage: cherryBlossomImg,
     thumbnails: [
       cherryBlossomImg,
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCaxIv1Y2zst-B2VPp7Ehlhj4A6Ff9xrxPMU2fw1Y-2qd-7D2bTaTVvDGo9CYHyX8Y-lnRj6PXrz462ns4vx3KIIJZ4Ha6RAENn_n7FKE4pTUUVI9irnqyZffGLttKwIp7_LRW3i9YsTL2Y_Sf6NGCIQfSh6Z4-YoJakRIBtdSOeHTvnGSjjgZ4UwIZbZeKreKKuX5KMks4Hlf5F_4s0oimlMltMgRk-KEmZekt0qITIuAFEr34D-dvv0ilohtbbNVLhwMtzy7BPg",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBQ9d_he2Y4vFcN_k7AJK0UtqCySdETUUwynR5P_ZxtxPkoWjBkovPvlAoJazfu8VnFOQj6ZSS4s2wI4b-F7utttHvcu0lVhSlZtGaRfqkiVCPi2Z7nZWvL8YiNky9SJsaL7AjymTR3VCm-IqucWBJ7ZOC-OjWHxu9A30bNyBRbrBP3xSFce-Kc6ojU0iqfAgfVrzLF7und1qB9qaf_n3yKYa6sj8tBUZ00Tt52Hu9DmRo4WOZaPhYxm-qFSZXze6A1aFmS5dT5Ag",
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuC9Mb9TmlM1_GH55M9-lwQQxpZ4zCbYpDC6l1FYJpchkw0jO52-5m3Oj2Ukyo9WTlvlz_53Uv4-DXqTt3weiTEnOcuzji3yGQXZeYx0nSgFcJxzTwJehDqktpH-MAHSwgiPtebgV-3bZyand1u4FFFcr3VuVC3vPowFNJ9XG9J1fD4C5BDTJEzXxfRFhUfGEu-Kr4hQlDldssfHk1z6xWAXl7NcaU-gmS4fgvMpuO7RqiVwdpaCMD4Bx2URR_Nj_zq-6jqTNwjhcQ"
+      cherryBlossomImg_1,
+      cherryBlossomImg_2,
+      cherryBlossomImg_3
     ],
     careGuide: [
       {
