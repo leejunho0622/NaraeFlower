@@ -1,3 +1,8 @@
+import cherryBlossomImg from "../assets/a_delicate_cherry_blossom_arrangement_in_a_soft_pink_vase_ethereal_spring.png";
+import sunflowerImg from "../assets/a_bundle_of_fresh_yellow_sunflowers_tied_with_a_rustic_twine_bright_and_cheery.png";
+import monsteraImg from "../assets/a_lush_green_monstera_plant_in_a_ceramic_pastel_yellow_pot_soft_natural_light.png";
+import tulipDaisyImg from "../assets/a_vibrant_spring_bouquet_of_tulips_and_daisies_in_a_simple_glass_vase_soft.png";
+
 export interface CareStep {
   title: string;
   engTitle?: string;
@@ -52,9 +57,9 @@ export const PRODUCTS: Product[] = [
     tags: ["Best Seller", "Spring Seasonal"],
     description: "화사한 봄의 기운을 담은 벚꽃 꽃병 세트입니다. 은은한 핑크빛 꽃잎이 공간에 화사함을 더해줍니다. 특별한 날 선물용으로 인기가 많습니다.",
     longDescription: "화사한 봄의 기운을 담은 벚꽃 꽃병 세트입니다. 은은한 핑크빛 꽃잎이 공간에 화사함을 더해줍니다. 특별한 날 선물용으로 인기가 많습니다. 전문 플로리스트가 당일 수급된 최상의 꽃들로 정성껏 구성합니다. 꽃병이 포함되어 있어 화사하게 바로 장식할 수 있는 실용미 넘치는 세트 상품입니다.",
-    mainImage: "https://lh3.googleusercontent.com/aida/ADBb0ujDtVae-hjWN_iV4JkpuR8yEOYonN7R_LMKIvOMksoSzFvIkRRdrMf3_m1eneUXH5THzGfILmN-73REaT6A6IMxZIPr4KOe_SGEJYfOZ-3C2kCh7XujQWUy0Pz4JlNyyEp9u7kiZlOhvy_JTqlhUc7zL-LrvRxffERo4ybRNGGNYauYB-dGdrBneZXzerhxDiE_HXS05QYCH_obE6heVL6xJLMjX9g7yDSi6nOujijCbsNXJw4pUaf3",
+    mainImage: cherryBlossomImg,
     thumbnails: [
-      "https://lh3.googleusercontent.com/aida/ADBb0ujDtVae-hjWN_iV4JkpuR8yEOYonN7R_LMKIvOMksoSzFvIkRRdrMf3_m1eneUXH5THzGfILmN-73REaT6A6IMxZIPr4KOe_SGEJYfOZ-3C2kCh7XujQWUy0Pz4JlNyyEp9u7kiZlOhvy_JTqlhUc7zL-LrvRxffERo4ybRNGGNYauYB-dGdrBneZXzerhxDiE_HXS05QYCH_obE6heVL6xJLMjX9g7yDSi6nOujijCbsNXJw4pUaf3",
+      cherryBlossomImg,
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCaxIv1Y2zst-B2VPp7Ehlhj4A6Ff9xrxPMU2fw1Y-2qd-7D2bTaTVvDGo9CYHyX8Y-lnRj6PXrz462ns4vx3KIIJZ4Ha6RAENn_n7FKE4pTUUVI9irnqyZffGLttKwIp7_LRW3i9YsTL2Y_Sf6NGCIQfSh6Z4-YoJakRIBtdSOeHTvnGSjjgZ4UwIZbZeKreKKuX5KMks4Hlf5F_4s0oimlMltMgRk-KEmZekt0qITIuAFEr34D-dvv0ilohtbbNVLhwMtzy7BPg",
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBQ9d_he2Y4vFcN_k7AJK0UtqCySdETUUwynR5P_ZxtxPkoWjBkovPvlAoJazfu8VnFOQj6ZSS4s2wI4b-F7utttHvcu0lVhSlZtGaRfqkiVCPi2Z7nZWvL8YiNky9SJsaL7AjymTR3VCm-IqucWBJ7ZOC-OjWHxu9A30bNyBRbrBP3xSFce-Kc6ojU0iqfAgfVrzLF7und1qB9qaf_n3yKYa6sj8tBUZ00Tt52Hu9DmRo4WOZaPhYxm-qFSZXze6A1aFmS5dT5Ag",
       "https://lh3.googleusercontent.com/aida-public/AB6AXuC9Mb9TmlM1_GH55M9-lwQQxpZ4zCbYpDC6l1FYJpchkw0jO52-5m3Oj2Ukyo9WTlvlz_53Uv4-DXqTt3weiTEnOcuzji3yGQXZeYx0nSgFcJxzTwJehDqktpH-MAHSwgiPtebgV-3bZyand1u4FFFcr3VuVC3vPowFNJ9XG9J1fD4C5BDTJEzXxfRFhUfGEu-Kr4hQlDldssfHk1z6xWAXl7NcaU-gmS4fgvMpuO7RqiVwdpaCMD4Bx2URR_Nj_zq-6jqTNwjhcQ"
@@ -92,9 +97,9 @@ export const PRODUCTS: Product[] = [
     tags: ["Best Seller", "Season's Best"],
     description: "밝고 활기찬 에너지를 주는 해바라기 다발입니다. 응원과 축하의 의미를 담아 선물하기 좋습니다.",
     longDescription: "밝고 활기찬 에너지를 주는 해바라기 다발입니다. 응원과 축하의 의미를 담아 선물하기 좋습니다. 전문가가 엄선한 신선한 해바라기만을 사용하여 품격 있는 테이블 연출이나 생일, 입학식 등 특별한 순간을 더욱 빛나게 해줍니다.",
-    mainImage: "https://lh3.googleusercontent.com/aida/ADBb0ui-6AJ4LZhfVQmoxnXxNnN6SbnY2RAbkDYoQsjc-yNS0kaO0uz32jnAX0U5v6ZvAM4S4UlOLuG0shDZf5gmb5SHDPpyHh5AePxJKPSeDymrgeINVEkS7I-q5fm-G57duB7B3z4PvOTDCxLT_oTSh_hH-tRBiTz6dXe2bWk9TQWC88JhDxdoAVZ3cfz51XAYJLfa8jevjvBaA2FJH5CTntcndrZ3Z7vw2mcw-ULU7EbVObffXoOaDTOxIQ",
+    mainImage: sunflowerImg,
     thumbnails: [
-      "https://lh3.googleusercontent.com/aida/ADBb0ui-6AJ4LZhfVQmoxnXxNnN6SbnY2RAbkDYoQsjc-yNS0kaO0uz32jnAX0U5v6ZvAM4S4UlOLuG0shDZf5gmb5SHDPpyHh5AePxJKPSeDymrgeINVEkS7I-q5fm-G57duB7B3z4PvOTDCxLT_oTSh_hH-tRBiTz6dXe2bWk9TQWC88JhDxdoAVZ3cfz51XAYJLfa8jevjvBaA2FJH5CTntcndrZ3Z7vw2mcw-ULU7EbVObffXoOaDTOxIQ",
+      sunflowerImg,
       "https://lh3.googleusercontent.com/aida-public/AB6AXuCaxIv1Y2zst-B2VPp7Ehlhj4A6Ff9xrxPMU2fw1Y-2qd-7D2bTaTVvDGo9CYHyX8Y-lnRj6PXrz462ns4vx3KIIJZ4Ha6RAENn_n7FKE4pTUUVI9irnqyZffGLttKwIp7_LRW3i9YsTL2Y_Sf6NGCIQfSh6Z4-YoJakRIBtdSOeHTvnGSjjgZ4UwIZbZeKreKKuX5KMks4Hlf5F_4s0oimlMltMgRk-KEmZekt0qITIuAFEr34D-dvv0ilohtbbNVLhwMtzy7BPg",
       "https://lh3.googleusercontent.com/aida-public/AB6AXuBQ9d_he2Y4vFcN_k7AJK0UtqCySdETUUwynR5P_ZxtxPkoWjBkovPvlAoJazfu8VnFOQj6ZSS4s2wI4b-F7utttHvcu0lVhSlZtGaRfqkiVCPi2Z7nZWvL8YiNky9SJsaL7AjymTR3VCm-IqucWBJ7ZOC-OjWHxu9A30bNyBRbrBP3xSFce-Kc6ojU0iqfAgfVrzLF7und1qB9qaf_n3yKYa6sj8tBUZ00Tt52Hu9DmRo4WOZaPhYxm-qFSZXze6A1aFmS5dT5Ag",
       "https://lh3.googleusercontent.com/aida-public/AB6AXuC9Mb9TmlM1_GH55M9-lwQQxpZ4zCbYpDC6l1FYJpchkw0jO52-5m3Oj2Ukyo9WTlvlz_53Uv4-DXqTt3weiTEnOcuzji3yGQXZeYx0nSgFcJxzTwJehDqktpH-MAHSwgiPtebgV-3bZyand1u4FFFcr3VuVC3vPowFNJ9XG9J1fD4C5BDTJEzXxfRFhUfGEu-Kr4hQlDldssfHk1z6xWAXl7NcaU-gmS4fgvMpuO7RqiVwdpaCMD4Bx2URR_Nj_zq-6jqTNwjhcQ"
@@ -132,9 +137,9 @@ export const PRODUCTS: Product[] = [
     tags: ["Best Seller", "Air Purifying"],
     description: "싱그러운 초록빛 잎이 매력적인 몬스테라입니다. 관리가 쉬워 초보자에게도 추천합니다.",
     longDescription: "싱그러운 초록빛 잎이 매력적인 몬스테라입니다. 관리가 쉬워 초보자에게도 추천하며, 어떤 인테리어에도 잘 어울리는 반려식물입니다. 넓은 잎은 공기 정화 능력도 탁월하여 실내 공간에 생기를 불어넣어 줍니다. 화담 및 배수 디자인이 가미된 화분 패키지 세트입니다.",
-    mainImage: "https://lh3.googleusercontent.com/aida/ADBb0uhO_WXUv0ppM-jOFeaDUH28zI_4eOcMbQEQnI5r7R2yb6O6i6sRNyJJHQoGO0YnwfwPzRMiMhfRo4B546AD8O55HxjCg7ZF_SA4S_1djkKcqpHGDgBEvZxu3PpH8R7PrxMOn5NMouHJm3ZNX-yY9WYND6ehgQlTQ-hVQqcYJ5i6AnlKl9cJnS8tovtWunlGo-f7OGI0VJygFKjv0rkjchhFEk6pKu7WQa7pNggZb_xqTPzwNOWh7nVbjw",
+    mainImage: monsteraImg,
     thumbnails: [
-      "https://lh3.googleusercontent.com/aida/ADBb0uhO_WXUv0ppM-jOFeaDUH28zI_4eOcMbQEQnI5r7R2yb6O6i6sRNyJJHQoGO0YnwfwPzRMiMhfRo4B546AD8O55HxjCg7ZF_SA4S_1djkKcqpHGDgBEvZxu3PpH8R7PrxMOn5NMouHJm3ZNX-yY9WYND6ehgQlTQ-hVQqcYJ5i6AnlKl9cJnS8tovtWunlGo-f7OGI0VJygFKjv0rkjchhFEk6pKu7WQa7pNggZb_xqTPzwNOWh7nVbjw",
+      monsteraImg,
       "https://lh3.googleusercontent.com/aida-public/AB6AXuC7kkSP5nDhhNYqbrSllOmcP_OfSThzZjq9CJ64N0ilRbOWMAfJQHQuIdR09gvZeaIg5byDDddIjZFUblokStIPREQFddSkZoHUJonbkGI0mkzGxENl_LZ3JmGoQW8OvldXwcz09wwFRbHIvhFdtKLi82REdK6YieB2jabsjB5wRL6W-GzFllKjHe54OwxKMyx1UzwP3m_nJhobqug3Y9I-uSIc_GQrnb6lzj8OVwPH6KmX_UZNTvYPZvyKPxfp2NaDBizHHQ5hZA",
       "https://lh3.googleusercontent.com/aida-public/AB6AXuAleNK8ClhX4XbseOOwrAiVNkzSCua96qQi1m-Brynmzy5fpg-nMnXF8mCpEuQJfMJNCFdhmV1bZyF-SLTZIK2fDbva1dT80G3j460POwBhpi3CFntAs_eGEGbBQ5ZN1y1AtGS8Mbhb7q1SOLzjfdhsSlF6ltBsq3IhGCsNF10OnUrSyKpCBRtz03lPaE-x8UzLDZZyI9JyHoyZT3AVmFR2C_4OgbOAVdd9i9uYp57uHEy-3eYvVuB2Bc_iLNyMr3hhaA9ddezi4A",
       "https://lh3.googleusercontent.com/aida-public/AB6AXuB--UXCPUDnsaiCkHoq_21HNzxuOj-xaqLKmRD_7UuYLNvZJfheZ4cbK4tDlqeVuKYPAQNjWaH0AoQ4lT4upm7LVFuPP0GSZoH8yoP7v-oS74lJoc8GcwNILB5tW7xhBXw5O3dFp3GLWd1dIlre5B77PXTJapkI6XXYfNV_geUyua3ZGMa19_Gjrz6oOROg2BcMcF47mxsSQWhbGTyscH_63YkyPI1gqDCaPziSlH6jgAGrwcSKO_O6cKEjwFgFpPGas625Pm3uiA"
@@ -174,12 +179,12 @@ export const PRODUCTS: Product[] = [
     tags: ["New Arrival", "Seasonal Exclusive"],
     description: "계절의 화사함을 가득 담은 봄날의 선물입니다. 신선한 튤립과 아기자기한 데이지가 완벽하게 조화를 이룹니다.",
     longDescription: "계절의 화사함을 가득 담은 봄날의 선물입니다. 신선한 튤립과 아기자기한 데이지가 조화롭게 어우러져 어떤 공간이든 밝게 빛내줍니다. 전문 플로리스트가 당일 수급된 최상의 꽃들로 정성껏 구성합니다. 화병에 꽂았을 때 튤립 고유의 우아함에 데이지가 싱그러움을 배가시킵니다.",
-    mainImage: "https://lh3.googleusercontent.com/aida-public/AB6AXuB3puRhcg0oAsiaDEHZQoPnsvhw3r223s96ZU2kwd36bhxPrafKFmLIQ_sAKRb1EC51IwgxKRj29sRbmopWWGlYzfTXQBHxAnyxaaC7PO7TnRhXzQ3MbQcihVJtYf1Kl3oc0VhXib5HSP58ZL6JC0lOmnGX9QgHwfEU1zLn8uWXNKhB-3wrgR_zsYnrH8MtYKTpxTkXWQVCP76w-3Usjii9Bb18MQ7M9WLguuNG0l0NS37pQOjq1xMmve7bLLD62GL_4xZPfpuMKw",
+    mainImage: tulipDaisyImg,
     thumbnails: [
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuB3puRhcg0oAsiaDEHZQoPnsvhw3r223s96ZU2kwd36bhxPrafKFmLIQ_sAKRb1EC51IwgxKRj29sRbmopWWGlYzfTXQBHxAnyxaaC7PO7TnRhXzQ3MbQcihVJtYf1Kl3oc0VhXib5HSP58ZL6JC0lOmnGX9QgHwfEU1zLn8uWXNKhB-3wrgR_zsYnrH8MtYKTpxTkXWQVCP76w-3Usjii9Bb18MQ7M9WLguuNG0l0NS37pQOjq1xMmve7bLLD62GL_4xZPfpuMKw",
+      tulipDaisyImg,
       "https://lh3.googleusercontent.com/aida-public/AB6AXuB18fCIxkk_V635hHaH_PkBL-qQddf8DJb6Jw8rGT5D25X5F-2dwpUugXNlp7zU56PPNMU0kw0lqjrH-rvtTCy2gV3HNdisXXitoK0vb9gRRh896yQfVh93R1aVHlmsmbKMrI11C3WSgzaKMpm04FjUiJ5pm6O3RZ5dLvjgtctja43zCN-N8ie7Ay7i4sL2Ro-KV3FPz4SfOgksXc7oDqxRawi8J5kGIX5E9kPlQ9jzVB7F__eSu-cAGV8UQAu5GGca5zpD6QDybw",
-      "https://lh3.googleusercontent.com/aida/ADBb0ui-6AJ4LZhfVQmoxnXxNnN6SbnY2RAbkDYoQsjc-yNS0kaO0uz32jnAX0U5v6ZvAM4S4UlOLuG0shDZf5gmb5SHDPpyHh5AePxJKPSeDymrgeINVEkS7I-q5fm-G57duB7B3z4PvOTDCxLT_oTSh_hH-tRBiTz6dXe2bWk9TQWC88JhDxdoAVZ3cfz51XAYJLfa8jevjvBaA2FJH5CTntcndrZ3Z7vw2mcw-ULU7EbVObffXoOaDTOxIQ",
-      "https://lh3.googleusercontent.com/aida/ADBb0uhO_WXUv0ppM-jOFeaDUH28zI_4eOcMbQEQnI5r7R2yb6O6i6sRNyJJHQoGO0YnwfwPzRMiMhfRo4B546AD8O55HxjCg7ZF_SA4S_1djkKcqpHGDgBEvZxu3PpH8R7PrxMOn5NMouHJm3ZNX-yY9WYND6ehgQlTQ-hVQqcYJ5i6AnlKl9cJnS8tovtWunlGo-f7OGI0VJygFKjv0rkjchhFEk6pKu7WQa7pNggZb_xqTPzwNOWh7nVbjw"
+      sunflowerImg,
+      monsteraImg
     ],
     careGuide: [
       {
