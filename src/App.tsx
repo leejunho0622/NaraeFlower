@@ -9,6 +9,7 @@ import ProductCard from "./components/ProductCard";
 import ProductDetailModal from "./components/ProductDetailModal";
 import AiFloristDesk from "./components/AiFloristDesk";
 import CartDrawer from "./components/CartDrawer";
+import heroBannerImg from "../assets/a_vibrant_spring_bouquet_of_tulips_and_daisies_in_a_simple_glass_vase_soft.png";
 
 export default function App() {
   const [cart, setCart] = useState<CartItem[]>([]);
@@ -159,7 +160,7 @@ export default function App() {
             {/* Curated Floral Hotlink Image card */}
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-white/50 group">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3puRhcg0oAsiaDEHZQoPnsvhw3r223s96ZU2kwd36bhxPrafKFmLIQ_sAKRb1EC51IwgxKRj29sRbmopWWGlYzfTXQBHxAnyxaaC7PO7TnRhXzQ3MbQcihVJtYf1Kl3oc0VhXib5HSP58ZL6JC0lOmnGX9QgHwfEU1zLn8uWXNKhB-3wrgR_zsYnrH8MtYKTpxTkXWQVCP76w-3Usjii9Bb18MQ7M9WLguuNG0l0NS37pQOjq1xMmve7bLLD62GL_4xZPfpuMKw"
+                src={heroBannerImg}
                 alt="Beautiful Spring Florals Atelier"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover scale-102 group-hover:scale-105 transition-transform duration-700"
