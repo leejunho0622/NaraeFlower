@@ -5,7 +5,7 @@ import cherryBlossomImg_3 from "../assets/cherryBlossomImg_3.png";
 import sunflowerImg from "../assets/a_bundle_of_fresh_yellow_sunflowers_tied_with_a_rustic_twine_bright_and_cheery.png";
 import monsteraImg from "../assets/a_lush_green_monstera_plant_in_a_ceramic_pastel_yellow_pot_soft_natural_light.png";
 import tulipDaisyImg from "../assets/a_vibrant_spring_bouquet_of_tulips_and_daisies_in_a_simple_glass_vase_soft.png";
-import tulipDaisyImg_1 from "../assets/tulipDaisyImg_1.png";
+import tulipDaisyImg_1 from "../assets/tulipDaisyImg_1.PNG";
 import tulipDaisyImg_2 from "../assets/tulipDaisyImg_2.png";
 
 
