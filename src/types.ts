@@ -2,6 +2,10 @@ import cherryBlossomImg from "../assets/a_delicate_cherry_blossom_arrangement_in
 import sunflowerImg from "../assets/a_bundle_of_fresh_yellow_sunflowers_tied_with_a_rustic_twine_bright_and_cheery.png";
 import monsteraImg from "../assets/a_lush_green_monstera_plant_in_a_ceramic_pastel_yellow_pot_soft_natural_light.png";
 import tulipDaisyImg from "../assets/a_vibrant_spring_bouquet_of_tulips_and_daisies_in_a_simple_glass_vase_soft.png";
+import tulipDaisyImg_1 from "../assets/tulipDaisyImg_1";
+import tulipDaisyImg_2 from "../assets/tulipDaisyImg_2";
+
+
 
 export interface CareStep {
   title: string;
@@ -183,8 +187,8 @@ export const PRODUCTS: Product[] = [
     thumbnails: [
       tulipDaisyImg,
       "https://lh3.googleusercontent.com/aida-public/AB6AXuB18fCIxkk_V635hHaH_PkBL-qQddf8DJb6Jw8rGT5D25X5F-2dwpUugXNlp7zU56PPNMU0kw0lqjrH-rvtTCy2gV3HNdisXXitoK0vb9gRRh896yQfVh93R1aVHlmsmbKMrI11C3WSgzaKMpm04FjUiJ5pm6O3RZ5dLvjgtctja43zCN-N8ie7Ay7i4sL2Ro-KV3FPz4SfOgksXc7oDqxRawi8J5kGIX5E9kPlQ9jzVB7F__eSu-cAGV8UQAu5GGca5zpD6QDybw",
-      sunflowerImg,
-      monsteraImg
+      tulipDaisyImg_1,
+      tulipDaisyImg_2
     ],
     careGuide: [
       {
